@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Responsive Page</title>
+		<link rel="stylesheet" href="styles.css" />
+		<link
+			rel="stylesheet"
+			href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+	</head>
+	<body>
+		<header class="header">
+			<div class="portada" id="portada">
+				<h1 class="portada__titulo">Este año se el crack de tu clase</h1>
+				<p class="portada__texto">
+					Para que estas vacaciones las puedas disfrutar con tus amigos y seres queridos, empieza ahora y aprueba esa
+					materias que más te cuestan
+				</p>
+			</div>
+			<div class="nav__container">
+				<div class="nav__logo">
+					<img src="./Images/Logo1.png" alt="logo de Your Movies website" class="nav__logo-image" />
+				</div>
+				<nav class="navbar">
+					<input type="checkbox" id="toggle" class="toggle-checkbox" />
+					<label for="toggle" class="toggle-label"><span class="material-symbols-outlined menu-icon">menu</span></label>
+					<ul class="navbar__ul">
+						<li class="navbar__li"><a href="#portada" class="navbar__link">Inicio</a></li>
+						<li class="navbar__li"><a href="#servicios" class="navbar__link">Servicios</a></li>
+						<li class="navbar__li"><a href="#" class="navbar__link">El Profe</a></li>
+						<li class="navbar__li"><a href="#" class="navbar__link">Contacto</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+		<main class="main" id="servicios">
+			<section class="seccion">
+				<h2 class="main__subtitle">Materias</h2>
+				<article class="materia">
+					<div class="texto">
+						<h2 class="tema">Matemáticas - El Encanto Oculto de los Números</h2>
+						<p class="descripcion">
+							A menudo, las matemáticas son vistas como una asignatura fría y distante, un conjunto de reglas y fórmulas
+							a memorizar. Sin embargo, para aquellos que logran descubrir su belleza intrínseca, las matemáticas se
+							transforman en un apasionante viaje de descubrimiento y creación.
+						</p>
+						<p class="descripcion">
+							Como profesor de matemáticas, he tenido el privilegio de presenciar cómo el asombro se enciende en los
+							ojos de mis alumnos cuando comprenden un concepto complejo o resuelven un problema desafiante. Ese momento
+							de "¡Eureka!" es la recompensa más gratificante de mi trabajo.
+						</p>
+						<button class="mas-info">Saber Más</button>
+					</div>
+					<div class="imagen__matematica"><img src="./images/Matematica.jpg" class="math__img" /></div>
+				</article>
+				<article class="materia">
+					<div class="texto">
+						<h2 class="tema">Física - Explorando las Leyes del Universo</h2>
+						<p class="descripcion">
+							La física es más que una materia escolar; es la llave que nos abre la puerta al vasto y fascinante
+							universo en el que vivimos. Como profesor de física, he tenido el privilegio de guiar a mis estudiantes a
+							través de un viaje de descubrimiento, donde las leyes que gobiernan el cosmos se revelan en toda su
+							gloria.
+						</p>
+						<p class="descripcion">
+							La física es, en esencia, el estudio de cómo funciona el mundo. Desde los movimientos de los planetas
+							hasta el comportamiento de las partículas subatómicas, esta ciencia busca entender las leyes fundamentales
+							que rigen el universo. Cada principio físico, cada ecuación, es una ventana a la verdad sobre la realidad
+							que nos rodea. Este conocimiento no solo es poderoso, sino también hermoso en su simplicidad y
+							profundidad.
+						</p>
+						<button class="mas-info">Saber Más</button>
+					</div>
+					<div class="imagen__matematica"><img src="./images/Fisica.jpg" class="math__img" /></div>
+				</article>
+			</section>
+			<section class="seccion">
+				<h2 class="main__subtitle">Trabajos Prácticos</h2>
+			</section>
+		</main>
+	</body>
+</html>
