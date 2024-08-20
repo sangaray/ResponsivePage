@@ -1,6 +1,9 @@
 /* RESET AND GENERAL SECTION */
 * {
 	box-sizing: border-box;
+	scroll-behavior: smooth;
+	scrollbar-color: #f0ffff #151599;
+	overflow-x: hidden;
 }
 
 /* prettier-ignore */
@@ -9,10 +12,6 @@ body, div, h1, h2, p, ul, li, main, article{
   padding: 0;
   font-family: lato, sans-serif ;
   color: #151599;
-}
-
-body {
-	overflow-x: hidden;
 }
 
 /* HEADER SECTION */
@@ -152,8 +151,10 @@ body {
 }
 
 .math__img {
-	width: 100%;
-	padding: 20px;
+	width: 95%;
+	margin: 20px;
+	border-radius: 15px;
+	box-shadow: 0 0 5px 1px #f0ffff;
 }
 
 .tema {
@@ -188,8 +189,34 @@ body {
 	padding: 30px;
 }
 
+.elprofe {
+	width: 250px;
+	border-radius: 50%;
+	margin: 20px;
+}
+
+.profile {
+	display: flex;
+	margin: 20px;
+}
+
+.nombre {
+	font-family: audiowide;
+	font-weight: 600;
+	padding-right: 10px;
+	font-size: 20px;
+}
+
+.titulo__profile {
+	padding: 20px 0 20px 0;
+}
+
+.texto__profile {
+	text-align: left;
+}
+
 /* RESPONSIVE STYLES */
-@media (max-width: 750px) {
+@media screen and (max-width: 750px) {
 	/* Show the hamburger icon */
 	.toggle-label {
 		display: inline-block;
@@ -216,5 +243,51 @@ body {
 	/* Show the menu when the checkbox is checked */
 	.toggle-checkbox:checked ~ .navbar__ul {
 		display: flex;
+	}
+
+	/* MAIN SECTION	*/
+	.materia {
+		flex-direction: column;
+		align-items: center;
+		justify-content: center;
+		padding: 30px;
+	}
+
+	.imagen__matematica {
+		width: 100%;
+		order: -1; /* Mover la imagen arriba del texto */
+	}
+
+	.texto {
+		align-items: center;
+		width: 100%;
+	}
+
+	.tema {
+		text-align: center;
+	}
+
+	.descripcion {
+		width: 100%;
+		text-align: center;
+	}
+
+	.math__img {
+		padding: 20px;
+		margin: 0;
+	}
+
+	.mas-info {
+		align-self: center;
+	}
+
+	.profile {
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+	}
+
+	h2 {
+		text-align: center;
 	}
 }
