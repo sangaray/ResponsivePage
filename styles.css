@@ -215,6 +215,83 @@ body, div, h1, h2, p, ul, li, main, article{
 	text-align: left;
 }
 
+/* CONTACT SECTION */
+/* Estilo general del formulario */
+.form {
+	width: 400px;
+	padding: 20px;
+	border: 2px solid #000;
+	margin: 0 auto;
+	display: flex;
+	flex-direction: column;
+	background: rgba(255, 255, 255, 0.137);
+	border-radius: 10px;
+	backdrop-filter: blur(10px);
+	-webkit-backdrop-filter: blur(10px);
+	border: 1px solid #ffffff4d;
+	box-shadow: 0 5px 7px #00000044;
+	z-index: 20;
+}
+
+.texto__contacto {
+	font-size: 30px;
+	padding-bottom: 20px;
+	text-align: center;
+	background-color: transparent;
+}
+
+.form__input-container {
+	margin-bottom: 15px;
+	border: 2px solid #ffffff4d;
+	border-radius: 20px;
+	padding: 3px;
+}
+
+.form__label {
+	font-size: 16px;
+	margin: 5px;
+	color: #f0ffff;
+	:3px ;
+}
+
+.form__input,
+.form__textarea {
+	border: 1px solid #000;
+	width: 100%;
+	outline: none;
+	border-radius: 5px;
+	background-color: transparent;
+	color: #f0ffff;
+	padding: 10px;
+}
+
+.form__input::placeholder,
+.form__textarea::placeholder {
+	color: #f0ffff;
+}
+
+.form__input:focus,
+.form__textarea:focus {
+	background-color: transparent;
+}
+
+.form__textarea {
+	height: 150px;
+	resize: none;
+}
+
+.form__button-submit {
+	background-color: #f0ffff;
+	width: 100px;
+	border-radius: 20px;
+	padding: 10px 20px;
+	margin: 20px auto 0;
+	font-size: 18px;
+	border: none;
+	cursor: pointer;
+	text-align: center;
+}
+
 /* RESPONSIVE STYLES */
 @media screen and (max-width: 750px) {
 	/* Show the hamburger icon */
