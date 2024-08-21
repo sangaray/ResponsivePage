@@ -251,7 +251,6 @@ body, div, h1, h2, p, ul, li, main, article{
 	font-size: 16px;
 	margin: 5px;
 	color: #f0ffff;
-	:3px ;
 }
 
 .form__input,
@@ -366,5 +365,9 @@ body, div, h1, h2, p, ul, li, main, article{
 
 	h2 {
 		text-align: center;
+	}
+
+	.form {
+		width: 300px;
 	}
 }
